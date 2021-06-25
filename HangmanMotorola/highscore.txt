@@ -1,0 +1,2 @@
+name | date | guessing_time | guessing_tries | guessed_word
+Kris | 25/06/2021 | 52 | 9 | moroni
