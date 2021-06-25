@@ -263,8 +263,8 @@ namespace HangmanMotorola
         {
             health = InitialHealth;
             target = GetRandomKeyValuePair(gameDictionary);
-            targetWord = target.Key;
-            targetHint = target.Value;
+            targetWord = target.Value.ToLower();
+            targetHint = target.Key;
             guessCount = 0;
             correctGuess = false;
             goodGuesses.Clear();
